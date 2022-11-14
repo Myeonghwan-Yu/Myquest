@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const numbers = [273, 25, 75, 52, 103, 32, 57, 24, 76]
+
+        const oddNumbers = numbers.filter(function (value){
+            return value % 2 === 1
+        })
+
+        console.log(`홀수 : ${oddNumbers}`)
+
+        const underhundreds = numbers.filter(function (value){
+            return value<100
+        })
+
+        console.log(`100 이하의 수 : ${underhundreds}`)
+
+        const dividefives = numbers.filter(function (value){
+            return value % 5 === 0
+        })
+
+        console.log(`100 이하의 수 : ${dividefives}`)
+
+
+    </script>
+</head>
+<body>
+    <h1> 깃 연습!</h1>
+</body>
+</html>
